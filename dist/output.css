@@ -584,6 +584,15 @@ video {
   justify-content: space-between;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-\[url\(\'\/home\/info_lfs\/Images\/minecraft3\.png\'\)\] {
   background-image: url('/home/info_lfs/Images/minecraft3.png');
 }
