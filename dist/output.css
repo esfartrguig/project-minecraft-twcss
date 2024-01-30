@@ -540,137 +540,48 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
-.box-border {
-  box-sizing: border-box;
-}
-
-.box-content {
-  box-sizing: content-box;
 }
 
 .flex {
   display: flex;
 }
 
-.inline-flex {
-  display: inline-flex;
+.h-64 {
+  height: 16rem;
 }
 
 .w-full {
   width: 100%;
 }
 
-.flex-row {
-  flex-direction: row;
+.w-64 {
+  width: 16rem;
 }
 
-.flex-col {
-  flex-direction: column;
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-x-8 {
-  border-left-width: 8px;
-  border-right-width: 8px;
-}
-
-.border-x {
-  border-left-width: 1px;
-  border-right-width: 1px;
-}
-
-.border-x-amber-900 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(120 53 15 / var(--tw-border-opacity));
-  border-right-color: rgb(120 53 15 / var(--tw-border-opacity));
-}
-
-.border-x-cyan-800 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(21 94 117 / var(--tw-border-opacity));
-  border-right-color: rgb(21 94 117 / var(--tw-border-opacity));
-}
-
-.border-x-amber-700 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(180 83 9 / var(--tw-border-opacity));
-  border-right-color: rgb(180 83 9 / var(--tw-border-opacity));
-}
-
-.bg-amber-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(69 26 3 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[u\] {
-  background-color: u;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-none {
-  background-image: none;
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\"\"\)\] {
-  background-image: url("");
-}
-
-.bg-\[url\(\"\/home\/info_lfs\/Images\/\"\)\] {
-  background-image: url("/home/info_lfs/Images/");
-}
-
-.bg-\[url\(\/home\/info_lfs\/Images\/\)\] {
-  background-image: url(/home/info_lfs/Images/);
-}
-
-.bg-\[url\(\'\/home\/info_lfs\/Images\/\'\)\] {
-  background-image: url('/home/info_lfs/Images/');
-}
-
-.bg-\[url\(\'\/home\/info_lfs\/Images\/minecraft\.png\'\)\] {
-  background-image: url('/home/info_lfs/Images/minecraft.png');
-}
-
-.bg-\[url\(\'\/home\/info_lfs\/Images\/minecraft\.\'\)\] {
-  background-image: url('/home/info_lfs/Images/minecraft.');
-}
-
-.bg-\[url\(\'\/home\/info_lfs\/Images\/minecraft\.pnj\'\)\] {
-  background-image: url('/home/info_lfs/Images/minecraft.pnj');
 }
 
 .bg-\[url\(\'\/home\/info_lfs\/Images\/minecraft3\.png\'\)\] {
@@ -681,34 +592,14 @@ video {
   background-size: cover;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-2 {
@@ -716,24 +607,34 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pl-0 {
-  padding-left: 0px;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-.text-center {
-  text-align: center;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-.align-top {
-  vertical-align: top;
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
-.align-bottom {
-  vertical-align: bottom;
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl {
@@ -746,36 +647,7 @@ video {
   line-height: 2.25rem;
 }
 
-.text-green-900 {
+.text-green-500 {
   --tw-text-opacity: 1;
-  color: rgb(20 83 45 / var(--tw-text-opacity));
-}
-
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
-}
-
-.text-blue-900 {
-  --tw-text-opacity: 1;
-  color: rgb(30 58 138 / var(--tw-text-opacity));
-}
-
-.text-amber-900 {
-  --tw-text-opacity: 1;
-  color: rgb(120 53 15 / var(--tw-text-opacity));
-}
-
-@media (min-width: 1024px) {
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:pr-2 {
-    padding-right: 0.5rem;
-  }
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
